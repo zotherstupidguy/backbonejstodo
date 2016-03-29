@@ -1,4 +1,4 @@
-# backbone-project-scaffold
+# zotherstupidbackboneproject 
 minimal backbone project scaffold 
 
 # Libs
