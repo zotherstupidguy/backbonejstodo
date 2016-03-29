@@ -7,7 +7,10 @@ minimal backbone project scaffold
 - backbone.js production Version (1.3.2)
 
 # Usage
-should include online links to the libs but also include a downloaded libs for offline hacks on trains\planes\submarines :)
+#TODO include online links to the libs but also include a downloaded libs for offline hacks on trains\planes\submarines :)
+
+# API integration
+#TODO test with a live gitlapse ping api
 
 # Updates
 Feel free to help me keep the libs versions up-to-date
