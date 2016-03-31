@@ -1,24 +1,25 @@
- // js/models/todo.js
+// js/models/todo.js
 
-  var app = app || {};
+var app = app || {};
 
-  // Todo Model
-  // ----------
-  // Our basic **Todo** model has `title`, `order`, and `completed` attributes.
+// Todo Model
+// ----------
+// Our basic **Todo** model has `title`, `order`, and `completed` attributes.
 
-  app.Todo = Backbone.Model.extend({
+app.Todo = Backbone.Model.extend({
 
-    // Default attributes ensure that each todo created has `title` and `completed` keys.
-    defaults: {
-      title: '',
-      completed: false
-    },
+  // Default attributes ensure that each todo created has `title` and `completed` keys.
+  defaults: {
+    title: '',
+  //order: Todos.nextorder(),
+  completed: false
+  },
 
-    // Toggle the `completed` state of this todo item.
-    toggle: function() {
-      this.save({
-        completed: !this.get('completed')
-      });
-    }
+  // Toggle the `completed` state of this todo item.
+  toggle: function() {
+    this.save({
+      completed: !this.get('completed')
+    });
+  }
 
-  });
+});
